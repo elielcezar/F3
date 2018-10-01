@@ -1,0 +1,206 @@
+
+
+/*** CONTEUDO GERAL ******************************************************************************/
+
+#conteudo{
+	margin: 180px 0 100px 0;
+	padding: 0;
+	min-height: 300px;
+}
+
+
+
+#conteudo .row-fluid .span12{padding: 50px;}
+
+
+
+/*** PAGINAS AVULSAS ****************************************************************************/
+
+body.node-type-page{background: #ffcd02 url(images/bg_amarelo.jpg);}
+
+body.node-type-page #conteudo .row-fluid{background: #ffcd02;}
+
+
+
+
+
+/*** PORTFOLIO FOTO - PAGINA INDIVIDUAL *********************************************************/
+
+
+
+body.node-type-fotografia {	background: #ffcd02 url(images/bg_amarelo.jpg);}
+
+body.node-type-fotografia #conteudo .row-fluid{	background: #000;}
+
+body.node-type-fotografia #conteudo h1.title{
+	text-align: center;
+	margin-bottom: 50px;
+	color: #ffcd02;
+}
+
+body.node-type-fotografia #conteudo .view-portfolio-album-individual{
+	width: 675px;
+	height: 560px; 
+	position: relative;
+	margin: auto;
+}
+
+body.node-type-fotografia #conteudo .views-slideshow-controls-bottom{
+	position: absolute; 
+	top: 445px;
+	width: 675px;	
+}
+
+body.node-type-fotografia #conteudo .pager-item img{margin-bottom: 10px}
+
+body.node-type-fotografia #conteudo .pager-item.first,
+body.node-type-fotografia #conteudo .pager-item.pager-num-9{padding-left: 2px !important;}
+
+body.node-type-fotografia #conteudo .pager-item img{height: 50px;}
+
+
+
+
+/*** BLOG - GERAL *******************************************************************************/
+
+body#page-blog { background: #ffcd02 url(images/bg_preto.jpg);}
+
+body#page-blog #conteudo h1.title{	
+	margin-bottom: 50px;
+	color: #ffcd02;
+}
+
+body#page-blog #blog{
+	background: transparent; 
+	color: #000;	
+	padding: 0;
+	background: #ffcd02;
+	padding: 50px;
+}
+
+body#page-blog #conteudo h1{display: none;}
+
+body#page-blog #blog .views-row{
+	float: left;
+	width: 100%;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	border-bottom: 1px dotted #000;
+}
+
+body#page-blog #blog .views-row-last{border-bottom: none; margin-bottom: 0;}
+
+body#page-blog #blog .views-field-title{
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin-bottom:  25px;
+}
+
+body#page-blog #blog .views-field-title a{color: #000;}
+
+
+
+/*** BLOG - INDIVIDUAL *******************************************************************************/
+
+body.node-type-story{ background: #ffcd02 url(images/bg_preto.jpg);}
+
+body.node-type-story #conteudo h1{ display: none;}
+
+body.node-type-story #blog{
+	background: transparent; 
+	color: #000;	
+	padding: 0;
+	background: #ffcd02;
+	padding: 50px;
+}
+
+body.node-type-story #conteudo .views-field-title{
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin-bottom:  25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*** CONTEUDO EXIBIDO NA HOME ******************************************************************/
+
+
+
+body[id*="lightbox2"]{background: #000 !important; padding: 0;}
+
+
+
+body[id*="lightbox2"].admin-menu{margin-top: 0 !important;}
+
+
+
+body[id*="lightbox2"] #admin-menu,
+
+body[id*="lightbox2"] .navbar,
+
+body[id*="lightbox2"] h1,
+
+body[id*="lightbox2"] footer{display: none;}
+
+
+
+body[id*="lightbox2"] #conteudo{
+
+	background: #000 !important;
+
+	padding: 0 !important;
+
+	margin: -20px 0 0 0 !important;	
+
+}
+
+
+
+body[id*="lightbox2"] #conteudo,
+
+body[id*="lightbox2"] #conteudo .container,
+
+body[id*="lightbox2"] #conteudo .row-fluid,
+
+body[id*="lightbox2"] #conteudo .span12{
+
+	padding: 0 !important; 
+
+	float: left !important;
+
+	margin: 0 !important;	
+
+}
+
+
+
+body[id*="lightbox2"] .view-portfolio-album-individual{height: 560px; position: relative; float: left;}
+
+
+
+body[id*="lightbox2"] .views-slideshow-controls-bottom{position: absolute; top: 445px;}
+
+
+
+body[id*="lightbox2"] .pager-item img{margin-bottom: 10px}
+
+
+
+body[id*="lightbox2"] .pager-item.first,
+
+body[id*="lightbox2"] . .pager-item.pager-num-9{padding-left: 2px !important;}
+
+
+
+body[id*="lightbox2"] .pager-item img{height: 50px;}
+
